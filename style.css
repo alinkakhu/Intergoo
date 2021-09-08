@@ -1,0 +1,179 @@
+:root{
+    --color1:#A0A4F2 ;
+    --color2:#303AF2 ;
+}
+header h1{
+    padding: 200px 0 100px;
+}
+footer,section{
+padding: 100px 0;
+}
+
+header, nav,.end-section{
+   
+    background: var(--color1);
+background: -moz-linear-gradient(left, var(--color1)) 0%, var(--color2) 100%);
+background: -webkit-linear-gradient(left, var(--color1) 0%,var(--color2) 100%);
+background: linear-gradient(to right, var(--color1) 0%,var(--color2) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2),GradientType=1 );
+
+} 
+nav.navbar{
+ height: 10vh;
+ margin: 0 100px;
+}
+.flags {
+    width: 25%;
+    padding-top:10px;
+}
+.nav-item {
+    color: var(--bs-white) ;
+    font-size: 30px;
+    padding: 50px;
+}
+.navbar img  { 
+ width: 10%;
+    
+}
+.btn-itd {   
+
+    display: block;
+    max-width: 200px;
+    margin: 100px auto;
+    padding: 8px 30px;
+    color: var(--bs-white);
+    background-color: var(--color2);
+    
+}
+.btn-itd:hover{
+    background-color: var(--color1);
+    color: var(--bs-white);
+}
+.color1{
+    color:var(--color1)
+}
+.color2{
+    color: var(--color2);
+}
+.bg1{
+    background-color: var(--color1);
+}
+.bg2{
+    background-color: var(--color2);
+}
+
+/* O nas */
+.about{
+background-color: #eee;
+
+}
+.about i{
+    font-size: 25px;
+    color: var(--color2);
+}
+.itd-circle{
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 100px;
+    height: 10px;
+    color: var(--color1);
+    margin: 15px auto 30px;
+}
+.onas{
+ background-color: #eee;
+}
+.onas h5{
+    border: 3px solid var(--color1);
+    padding: 20px;
+}
+.onas img{
+    height: 400px; 
+}
+.images img{
+    height: 400px;
+    width: 400px;   
+    border-radius: 50%;
+    border: 3px solid var(--color1);
+   margin-top: 20px;
+}
+  
+   .images{
+       background-color:#eee;
+   }
+   .end-section h1 {
+       color: var(--bs-white);
+    padding: 20px;}
+
+      .end-section h3 {
+        color: var(--bs-white);
+    padding: 20px;} 
+    .form-control option{
+        font-family: cursive;
+    }
+    .chose-file{
+        font-family: cursive;
+       
+ padding:20px;
+    }
+    div.col{
+       margin-bottom: 20px; 
+      
+    } 
+   
+      div.checkbox{
+          margin: 20px;
+      }
+      button.center-block{
+          display: block;
+          text-align: center;
+        
+          max-width: 200px;
+          margin: 10px auto;
+          padding: 8px 30px;
+          color: var(--bs-white);
+          background-color: var(--color2);
+      }   
+        .message{
+            display: block;
+             padding-left: 50px;
+             width: 50%; 
+        }
+        .col1{
+           width: 50%;
+            display: flex;
+            flex-direction: column ;
+        }
+        .dane{
+             
+            display: flex;
+            flex-direction: row;
+          
+        } 
+        input.zgoda{
+            height: 20px;
+            width: 20px;
+        }   
+        .icony{
+            font-size:24px;
+            font-weight: bold;
+            padding: 10px 0px;
+        }
+        footer{
+            background-color: #eee;
+            
+        }
+        #footer h1{
+            color: var(--color2);
+        } 
+        footer p{
+            font-family: cursive;
+            font-size: 24px;
+        }
